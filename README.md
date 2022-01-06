@@ -53,3 +53,6 @@ test:\
 ```
 python detect.py --conf-thres 0.5
 ```
+
+## 測試結果
+![](./image/test1.jpg)
