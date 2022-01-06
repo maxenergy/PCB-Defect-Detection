@@ -43,11 +43,13 @@ python aug_with_bbox.py
 
 ## 訓練與測試
 train:
+訓練完的模型存放在"yolov5/runs/train"。
 ```
 python train.py --batch 4 --workers 0
 ```
 
 test:
+執行結果存放在"yolov5/runs/detect"。
 ```
 python detect.py --conf-thres 0.5
 ```
