@@ -55,5 +55,5 @@ python detect.py --conf-thres 0.5
 ```
 
 ## 測試結果
-![](./images/test1.jpg)
-![](./images/test2.jpg)
+<img src="./images/test1.jpg" width="800">
+<img src="./images/test2.jpg" width="800">
