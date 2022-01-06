@@ -35,6 +35,12 @@ names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious
 從"yolov5/models/hub/"找到所需的模型yaml檔，並移動至models下 (使專案我使用的是yolov5l6.yaml)。\
 記得修改yaml中的nc，改成您專案的label數量。
 
+## 新增資料集
+如果您已經建立好資料集的xml，以下程式可以根據xml新增資料，例如:翻轉、平移、旋轉
+```
+python aug_with_bbox.py
+```
+
 ## 訓練與測試
 train:
 ```
